@@ -1,0 +1,351 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Cambria,Tahoma;
+	box-sizing: border-box;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+:root {
+	--font-color: black;
+	--bg-color: rgba(231,175,105,0.4);
+	--nav-color: mediumaquamarine;
+	--button-color: #001816;
+	--buttonf-color: #AFAFAF;
+	--border: 2px outset white;
+}
+
+html[data-theme="dark"] {
+	--font-color: #AFAFAF;
+	--bg-color: #001816;
+	--nav-color: #132927;
+	--button-color: white;
+	--buttonf-color: black;
+	--border: 2px inset black;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
+
+
+
+
+header {
+	width: 100%;
+	height: 200px;
+	margin-top: 0px;
+	background-image: url('zd/gora.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+	header .logo
+	{
+		text-align: center;
+	}
+		
+		header .logo img
+		{
+			width: 450px;
+			margin-top: 25px;
+		}
+
+#theme_button {
+	float: right;
+	margin-top: -180px;
+	margin-right: 10px;
+	font-size: 15px;
+	background-color: var(--button-color);
+	color: var(--buttonf-color);
+	padding: 2px 2px 2px 2px;
+	border: var(--border);
+}
+
+
+
+footer {
+	background-color: #000;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	height: 50px;
+	bottom: 0px;
+	margin-top: 100px;
+}
+
+#wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+	
+}
+
+
+nav {
+	margin: 0 auto;
+	max-width: 1600px;
+	position: sticky;
+	top: 0;
+	height:50px;
+	background-color: var(--bg-color);
+}
+
+	nav a {
+		font-size: 10px;
+	}
+		nav img{
+			height: 20px;
+			margin-right: 1%;
+		}
+
+
+.side-menu {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	top: 0;
+	float: right;
+	background-color: black;
+	padding-top: 60px;
+	transform: translateX(-100%);
+	transition: 0.3s;
+}
+
+	.side-menu a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		
+	}
+
+
+
+
+.poszerzone-menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+a.znaczki {
+	display: none;
+	float: left;
+
+}
+
+	a.znaczki img {
+		height: 55px;
+		padding: 15px 10px 15px 10px;
+	}
+
+a.activemenu {
+	font-size: 30px;
+	width: 25%;
+	color: white;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: darkolivegreen;
+	text-decoration: none;
+	float: left;
+	height: 50px;
+	
+}
+
+button.activ2 {
+	display: none;
+	font-size: 30px;
+	width: 25%;
+	color: white;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-color: darkolivegreen;
+	text-decoration: none;
+	float: left;
+	height: 50px;
+	cursor: pointer;
+	font-size: 25px;
+	border: none;
+}
+
+
+
+button.znaczki-menu {
+	display: none;
+	height: 55px;
+	padding: 5px 5px 5px 5px;
+	border: none;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+	button.znaczki-menu img{
+		height: 25px;
+	}
+
+
+.side-menu a.a:hover {
+	background-color: #ddd;
+	color: white;
+}
+
+.activ2:focus ~ .side-menu, .side-menu:hover {
+	transform: translateX(0);
+}
+
+ button.znaczki-menu:focus ~ .side-menu, .side-menu:hover {
+	transform: translateX(0);
+}
+
+
+a.ac{
+	color: white;
+	background-color: seagreen;
+}
+
+a.menu {
+	font-size: 30px;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	float: right;
+	background-color: var(--nav-color);
+	color: var(--font-color);
+	font-size: 25px;
+}
+
+					a.menu:hover {
+						background-color: darkolivegreen;
+						color: white;
+						cursor: pointer;
+						height: 50px;
+					}
+
+
+
+
+.tresc {
+	float: right;
+	width: 100%;
+	margin-top: 10px;
+}
+
+		.tresc h1{
+			text-align: center;
+			font-size: 50px;
+			margin-bottom: 30px;
+		}
+
+	.tresc p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 25px;
+		
+		text-align: center;
+	}
+
+	.tresc a {
+		text-align: center;
+		padding-top: 40px;
+		font-size: 25px;
+		text-decoration: none;
+		color: var(--font-color);
+		text-align: center;
+		padding-bottom: 20px;
+	}
+										.tresc h2{
+											text-align:center;
+											margin-top: 30px;
+										}
+
+
+
+
+
+
+
+
+
+	@media (max-width: 1020px) {
+		
+
+		.tresc {
+			width: 100%;
+			padding-left: 20px;
+		}
+
+		button.activ2{
+			display: block;
+		}
+
+		a.activemenu {
+			display: none;
+		}
+
+		.tresc{
+			margin: 10px;
+		}
+
+		
+
+	}
+
+	@media (max-width: 500px) {
+		a.menu {
+			display: none;
+		}
+		
+
+		a.activemenu {
+			width: 75%;
+			float: right;
+			display: block;
+		}
+
+		a.znaczki {
+			display: inline-block;
+		}
+
+		button.znaczki-menu{
+			display: block;
+		}
+
+		header .logo img {
+			max-width: 98%;
+		}
+
+
+		button.activ2 {
+			display: none;
+		}
+
+		.poszerzone-menu{
+			display: block;
+		}
+		
+
+	}
+
+
+@media (min-width: 1020px) {
+	.side-menu {
+		display: none;
+		width: 0;
+	}
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>matcha skąd i jak?</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prawie wszystko o matchy" />
+    <meta name="keywords" content="herbata, japonia, matcha, kultura" />
+    <link rel="stylesheet" href="szablon-ankieta.css" type="text/css" />
+    <link rel="shortcut icon" href="zd/icon.ico" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="jqueryui.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="zd/logo.png" alt="logo"></a>
+        </div>
+
+        <label class="theme_ch" for="button">
+            <button id="theme_button">tu potrzebny jest javascript</button>
+        </label>
+    </header>
+
+
+
+
+
+    <nav>
+        <div class="activ2">Quiz</div>
+        <a href="kontakt.html" class="menu">Kontakt</a>
+        <a href="o_mnie.html" class="menu">O mnie</a>
+        <a href="ankieta.html" class="activemenu">Quiz</a>
+        <a href="matcha.html" class="menu">Matcha</a>
+        <a href="index.html" class="znaczki"><img src="zd/home.png" alt="home" /></a>
+        <button class="znaczki-menu"><img src="zd/menu.png" alt="strzalka" /></button>
+
+
+
+        <div class="side-menu">
+            <a href="matcha.html">Matcha</a>
+            <a href="o_mnie.html">O mnie</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+
+    </nav>
+
+
+
+    <div id="dialog" title="Błąd!">
+        <p>Nie zaznaczono wszystkich odpowiedzi!</p>
+    </div>
+
+    <div id="dialog2" title="Niestety!">
+        <p>Spróbuj jeszce raz!</p>
+    </div>
+
+
+
+    <div id="wrapper">
+
+
+
+
+        <div class="tresc">
+            <h1>Quiz</h1>
+            <p>
+                Zachęcam do wzięcia udziału w quizie i prawdzeniu swojej wiedzy na temat matchy.<br />
+                <small><small><small>(Aby quiz działał prawidłowo javascript musi być włączony)</small></small></small>
+            </p>
+
+            <h2>Quiz</h2>
+            <div id="usun">
+
+                <form class="quizform">
+
+                    <div class="quiz">
+
+
+                        <div class="pyt_1">
+                            <h3 class="pytanie">Skąd pochodzi matcha?</h3>
+
+                            <input type="radio" name="1" id="p1o1" class="odpowiedzi" value="false" />
+                            <label for="p1o1">Z Chin</label>
+                            <input type="radio" name="1" id="p1o2" class="odpowiedzi" value="false" />
+                            <label for="p1o2">Z Korei</label>
+                            <input type="radio" name="1" id="p1o3" class="odpowiedzi" value="true" />
+                            <label for="p1o3">Z Japoni</label>
+                        </div>
+
+                        <div class="pyt_2">
+                            <h3 class="pytanie">Jak nazywa się tradycyjne naczynie do picia matchy?</h3>
+                            <input type="radio" name="2" id="p2o1" class="odpowiedzi" value="false" />
+                            <label for="p2o1">Chasen</label>
+                            <input type="radio" name="2" id="p2o2" class="odpowiedzi" value="true" />
+                            <label for="p2o2">Czarka</label>
+                            <input type="radio" name="2" id="p2o3" class="odpowiedzi" value="false" />
+                            <label for="p2o3">Chashaku</label>
+                        </div>
+
+                        <div class="pyt_2">
+                            <h3 class="pytanie">Jaką temperature powinna mieć woda podczas parzenia matchy?</h3>
+                            <input type="radio" name="3" id="p3o1" class="odpowiedzi" value="false" />
+                            <label for="p3o1">90</label>
+                            <input type="radio" name="3" id="p3o2" class="odpowiedzi" value="true" />
+                            <label for="p3o2">80</label>
+                            <input type="radio" name="3" id="p3o3" class="odpowiedzi" value="false" />
+                            <label for="p3o3">70</label>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <button class="sprawdzenie" type="submit">Sprawdź!</button>
+
+                </form>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <div class="clearfix"></div>
+    <footer> Copyright 2021, Student: Kacper Puda, Inforamtyka gr.4</footer>
+    <script src="quizskrypt.js"></script>
+</body>
+
+</html>
