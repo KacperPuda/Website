@@ -5,4 +5,4 @@ EXPLANATIONS:
 
 Website was written as project in Hypertext and Hypermedia course.
 Website is dedicated to matcha ( a traditional Japanese green tea ).
-Website includes  HTML, CSS, JavaScript and PHP.
+Website includes  HTML, CSS, JavaScript.
