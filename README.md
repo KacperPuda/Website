@@ -1,4 +1,4 @@
-# Games
+# Website
 Website from my Hypertext and Hypermedia course on IT in Gdansk University Of Technology.
 
 EXPLANATIONS:
