@@ -3,6 +3,6 @@ The website from my Hypertext and Hypermedia course on IT at the Gdansk Universi
 
 EXPLANATIONS:
 
-Website was written as project in Hypertext and Hypermedia course.
-Website is dedicated to matcha ( a traditional Japanese green tea ).
-Website includes  HTML, CSS, JavaScript.
+The website was written as a project in Hypertext and Hypermedia course. 
+The website is dedicated to matcha ( a traditional Japanese green tea ). 
+The website includes HTML, CSS, and JavaScript.
