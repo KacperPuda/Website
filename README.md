@@ -1,5 +1,5 @@
 # Website
-Website from my Hypertext and Hypermedia course on IT in Gdansk University Of Technology.
+The website from my Hypertext and Hypermedia course on IT at the Gdansk University Of Technology.
 
 EXPLANATIONS:
 
